@@ -3,7 +3,7 @@
 
 @font-face{
     font-family: 'idroid';
-    src: url('fonts/iDroid.otf')format('OpenType');
+    src: url('./fonts/iDroid.otf')format('OpenType');
     font: normal normal;
    
 }
