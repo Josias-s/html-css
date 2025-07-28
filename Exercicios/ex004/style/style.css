@@ -21,9 +21,12 @@ header > h1 {
     color: white;
     margin: 0px 0px 0px 15px;
     padding-top: 30px;
+    font-weight: 30;
+    font-size: 30px;
 }
 h1 > span{
-    color: rgba(0, 0, 255, 0.489);
+    color: hsla(197, 100%, 80%, 0.489);
+    font-size: 50px;
 }
 
 nav {
