@@ -1,84 +1,61 @@
 @charset "UTF-8";
 
-* {
-    margin: 0px;
-    padding: 0px;
-}
-
-body {
-    background-image: url(/html-css/Exercicios/ex004/imagens/pexels-pixabay-62623.jpg);
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    font-family: sans-serif;
-}
-header{
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.528);
-    background-color: rgba(133, 185, 230, 0.505);
-}
-header > h1 {
-    color: white;
-    margin: 0px 0px 0px 15px;
-    padding-top: 30px;
-    font-weight: 30;
-    font-size: 30px;
-}
-h1 > span{
-    color: hsla(197, 100%, 80%, 0.489);
-    font-size: 50px;
-}
-
-nav {
-    text-align: right;
-    padding-bottom: 5px;
-}
-
-nav > a {
-    text-decoration: none;
-    padding:  4px 15px ;
-    color: white;
-    margin: 0px 4px 0px 4px;
-}
-a:hover{
-    background-color: rgba(18, 18, 162, 0.487);
-    border-radius: 6px;
-    transition: all 0.8s;
-}
-
-main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
-
-main > form {
-    width: 300px;
-    height: 300px;
-    background-color: rgba(240, 248, 255, 0.752);
-    padding: 10px;
-    border-radius: 20px 0px;
-    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.296);
-    text-align: center;
-}
-form>h2{
-    padding-bottom: 30px;
+       *{
+          margin: 0px;
+          padding: 0px;
+          
+        }
+        body{
+            font-family: sans-serif;
+            
+        }
     
-}
-form>input{
-    margin: 20px 0px;
-    padding: 5px;
-}
-form>label{
-    font-weight: bolder;
-}
-form>button{
-    padding: 5px 50px;
-    margin-top: 10px;
-    
-}
+        header{
+            background-color: #0066ffd4;
+            text-align: center;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            color: aliceblue;
+            text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.532);
+        }
+        header>h1{
+            font-size:50px;
+            
+        }
+        header>p{
+            font-size: 20px;
+            font-style: italic;
+        }
+        .poema{
+            padding: 20px;
+            
+        }
+        #img{
+        
+            background-image: url(/html-css/Exercicios/ex004/imagens/pexels-pixabay-62623.jpg);
+            background-position: center right;
+            background-size: cover;
+            padding: 80px 20px;
+            box-shadow: inset 4px 1px 3px rgba(0, 0, 0, 0.449);
+            background-attachment: fixed;
+        }
+        footer{
+            text-align: center;
+            background-color: #000000;
+            color: aliceblue;
+            padding: 10px;
+            
+        }
+        main{
+            font-size: 30px;
+        }
+        #img1{
+            background-color: #00000070;
+            padding: 20px;
+            width: 50%;
+            color: rgba(255, 255, 255, 0.935);
+            text-shadow: 1px 1px 4px black;
+        }
 
 
 
