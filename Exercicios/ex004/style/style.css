@@ -7,6 +7,7 @@
         }
         body{
             font-family: sans-serif;
+            min-height: 100vw;
             
         }
     
@@ -27,7 +28,7 @@
             font-style: italic;
         }
         .poema{
-            padding: 20px;
+            padding: 5vw 30px;
             
         }
         #img{
@@ -48,6 +49,8 @@
         }
         main{
             font-size: 30px;
+            line-height: 60px;
+            
         }
         #img1{
             background-color: #00000070;
