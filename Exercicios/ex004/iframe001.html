@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframe Exemplo</title>
+    <style>
+        iframe {
+            width: 600px;
+            height: 400px;
+            border: 1px solid #000;
+        }
+        a{
+            text-decoration: none;
+        ;
+        }
+        .pagina01{
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Conteúdo do Iframe</h1>
+    <p>Este é um exemplo simples de conteúdo carregado dentro de um iframe.</p>
+    <ul type="circle">
+        <li ><a href="pag001.html" target="iframe">Página 001</a></li>
+        <li><a href="pag002.html" target="iframe">Página 002</a></li>
+        <li><a href="pag003.html" target="iframe">Página 003</a></li>
+    </ul>
+<iframe src="" frameborder="0"name="iframe"srcdoc="<h1>Conteúdo Principal</h1><p>Esta é a página 003 que será carregada dentro do iframe.</p><img src='/html-css/Exercicios/ex003/imagens/perfume.png'width='40px'"></iframe>
+    
+</body>
+</html>
